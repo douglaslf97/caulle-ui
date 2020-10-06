@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { Button } from '../src';
+import { Button, GlobalStyles } from '../src';
 
-storiesOf('Button', module).add('Default', ()=> <Button />)
+storiesOf('Button', module).add('Default', ()=> <><GlobalStyles /><Button /></>)

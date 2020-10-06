@@ -1,2 +1,5 @@
+import GlobalStyles from './styles/global'
+export {GlobalStyles}
+
 export { Button } from './Button'
-export { Navbar } from './Navbar'
+export { Navbar, Logo, NavItems, NavItem } from './Navbar'

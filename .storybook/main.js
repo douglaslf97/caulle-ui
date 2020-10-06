@@ -1,5 +1,5 @@
 // const presets = require('../src/presets')
 module.exports = {
-  tories: ['../**/*.stories.tsx'],
+  stories: ['../**/*.stories.tsx'],
   addons: ['@storybook/addon-knobs'],
 };
